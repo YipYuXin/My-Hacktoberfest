@@ -53,6 +53,22 @@ while True:
       encouragement_list.append("everything is going to be fine")
       counter += 1
       
+     if each_word == "anticipating":
+      feelings_list.append("anticipating")
+      encouragement_list.append("wishing you all the best with the results!")
+      counter += 1
+      
+    if each_word == "scared":
+      feelings_list.append("scared")
+      encouragement_list.append("it's okay, everything is going to be fine")
+      counter += 1
+      
+    if each_word == "doomed":
+      feelings_list.append("doomed")
+      encouragement_list.append("It's alright, it'll not be that bad. There's always a next time too!")
+      counter += 1
+    
+      
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"

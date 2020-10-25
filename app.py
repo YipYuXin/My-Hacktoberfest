@@ -36,8 +36,7 @@ while True:
      if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("talk to your friends")
-      counter += 1  
-      
+      counter += 1    
 
      if each_word == "anger":
       feelings_list.append("anger")
@@ -68,6 +67,15 @@ while True:
       encouragement_list.append("It's alright, it'll not be that bad. There's always a next time too!")
       counter += 1
     
+    if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("Don't worry! Everyone is bound to face failures in the course of their lives, what is most important is you that pick yourself up and never give up!")
+      counter += 1
+    
+    if each_word == "frustrated":
+      feelings_list.append("frustrated")
+      encouragement_list.append("What are you frustrated about? Maybe you can try telling someone? They may be able to come up with different perspectives that can help you!")
+      counter += 1
       
     if counter == 0:
 
